@@ -17,7 +17,7 @@ The core logic is defined in `casetofon_ctrl.vhd`. The system operates based on 
 ### Finite State Machine (FSM)
 The controller implements a state machine with the following states ($S$):
 
-$$S = \{ \text{STOP}, \text{PLAY}, \text{REWIND}, \text{FAST\_FORWARD}, \text{WAIT\_REW}, \text{WAIT\_FF} \}$$
+STOP, PLAY, REWIND, WAIT_FF, WAIT_REW
 
 **State Descriptions:**
 * **STOP:** The idle state. All outputs are inactive.
